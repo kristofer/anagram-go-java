@@ -60,8 +60,6 @@ public class Anagram {
     System.out.printf("2 %s\n", foo.anagram(string1, string2));
     System.out.printf("3 %s\n", foo.anagram(string1, string3));
     System.out.printf("4 %s\n", foo.anagram(string1, string4));
-    System.out.printf("5 %s\n", foo.anagram(string1, string5));
-    System.out.printf("5 %s\n", foo.anagram(string1, string6));
 
   }
 
