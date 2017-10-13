@@ -23,3 +23,33 @@ as you can see in the Go version (anagram.go) I decided to "bin" the characters
 using a "grow as it needs to" **map**
 
 see my medium.com article on this, as penance to assuage my personal disappointment.
+
+
+### Timing
+
+```
+# the original version.
+$ time ./anagram
+true
+true
+false
+false
+
+real	0m0.005s
+user	0m0.001s
+sys	0m0.003s
+```
+also, just to be pointy-headed, I wrote this where we do the two loops in
+go routines, because you can. The timings where unsurprising.
+```
+# the pedantic, go routine version.
+$ time ./anagram
+true
+true
+false
+false
+
+real	0m0.010s
+user	0m0.001s
+sys	0m0.003s
+```
