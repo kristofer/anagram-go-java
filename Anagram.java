@@ -56,10 +56,10 @@ public class Anagram {
 
   public static void main(String[] args) {
     Anagram foo = new Anagram();
-    System.out.printf("1 %s\n", foo.anagram(string1, string1));
-    System.out.printf("2 %s\n", foo.anagram(string1, string2));
-    System.out.printf("3 %s\n", foo.anagram(string1, string3));
-    System.out.printf("4 %s\n", foo.anagram(string1, string4));
+    System.out.printf("%s\n", foo.anagram(string1, string1));
+    System.out.printf("%s\n", foo.anagram(string1, string2));
+    System.out.printf("%s\n", foo.anagram(string1, string3));
+    System.out.printf("%s\n", foo.anagram(string1, string4));
 
   }
 
