@@ -30,7 +30,7 @@ func anagram(_ x: String, _ y: String) -> Bool {
 
     for i in y {
         let ii = "\(i)"
-        if dicty[ii] != nil {
+        if dicty[ii] != nil { // handles unwrapping Int?
             let n = dicty[ii]! + 1
             dicty[ii] = n
         } else {
@@ -41,7 +41,7 @@ func anagram(_ x: String, _ y: String) -> Bool {
         return false
     }
     for (k, v) in dictx {
-        if let vy = dicty[k] {
+        if let vy = dicty[k] { // handles unwrapping Int?
             if v != vy {
                 return false
             }
