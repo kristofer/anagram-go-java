@@ -24,6 +24,15 @@ using a "grow as it needs to" **map**
 
 see my medium.com article on this, as penance to assuage my personal disappointment.
 
+### Commands
+
+```
+java Anagram.java
+
+go run anagram.go
+
+swift anagram.swift
+```
 
 ### Timing
 
